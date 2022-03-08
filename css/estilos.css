@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+body {
+	background: #f2f2f2;
+}
+*/
+.navegacion {
+	width: 1000 px;
+	margin-top: 0;
+	background: #f2f2f2;
+}
+
+.navegacion ul {
+	list-style: none;
+}
+
+.menu {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.menu .link-active {
+	background: #357934;
+}
+
+.menu .link-active a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu li {
+	/*position: relative;*/	
+	display: inline-block;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px 10px;
+	color: #353535;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #fff;
+	color: #357934;
+	transition: all .3s;
+}
+
+.menu .submenu {
+	position: absolute;
+	background: #333;
+	width: 97%;
+	display: none;
+}
+
+.menu .submenu li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+.menu .search {
+	padding-left: 210px;
+}
+
+.logos {
+	display: flex;
+	width: 1000 px;
+	margin-top: 0px;
+	background: #f2f2f2;
+}
+
+.logos .cont {
+	margin-left: 125px;
+	margin-top: 0px;
+}
+
+.logos .trcios {
+	display: block;
+}
+
+.ictions {
+	display: flex;
+	width: 1000 px;
+	margin-top: 0px;
+	background: #f2f2f2;
+}
